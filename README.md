@@ -1,8 +1,8 @@
-# Protein Insight Generator
+# Protein Amino Acids Analyzer
 
 ## Overview
 
-The Protein Insight Generator is a command-line application that takes a protein sequence in string format as input and returns a JSON object containing various insights about the sequence.
+The Protein Amino Acids Analyzer is a command-line application that takes a protein sequence in string format as input and returns a JSON object containing various insights about the sequence.
 
 ## Features
 
@@ -49,7 +49,7 @@ python protein_aa_analyze.py "PROTEIN_SEQUENCE" OUTPUT_FILE.json [--plot OUTPUT_
 
 ### Example
 ```
-python protein_aa_analyze.py "ACDEFGHIKLMNPQRSTVWY" output.json --plot composition_plot.png
+protein_aa_analyze.py "ACDEFGHIKLMNPQRSTVWY" output.json --plot composition_plot.png
 ```
 This will analyze the sequence "ACDEFGHIKLMNPQRSTVWY", save the insights in a file named `output.json`, and save the amino acid composition plot in `composition_plot.png`.
 
